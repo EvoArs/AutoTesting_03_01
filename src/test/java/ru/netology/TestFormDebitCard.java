@@ -27,7 +27,7 @@ public class TestFormDebitCard {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
 //        Опция отключающаяя отображение работы браузера при запуске тестов
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
 
     }
