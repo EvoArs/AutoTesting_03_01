@@ -42,7 +42,7 @@ public class TestFormDebitCard {
 
     //3. взаимодействие с элементами
     @Test
-    void testDebitCardPage() throws InterruptedException {
+    void testDebitCardPage() {
         //1. загрузка страницы
         driver.get("http://localhost:7777");
 
@@ -55,6 +55,6 @@ public class TestFormDebitCard {
         assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", text);
 //        .trim() отрезает пробелы в тексте
 //        Опция отображения работы браузера при запуске тестов
-        Thread.sleep(5000);
+//        Thread.sleep(5000);
     }
 }
